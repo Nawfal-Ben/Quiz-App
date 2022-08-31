@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="info">
+            <p>Category: HTML</p>
+            <p>Questions: <span class="question-count">9</span></p>
+        </div>
+        <div class="quiz">
+            <h2 class="question">Why We Use &lt;br&gt; Element</h2>
+            <div class="answers">
+                <div>
+                    <input type="radio" name="answer" id="answer_1" checked>
+                    <label for="answer_1">To Make Text Bold</label>
+                </div>
+                <div>
+                    <input type="radio" name="answer" id="answer_2">
+                    <label for="answer_2">To Make Text Italic</label>
+                </div>
+                <div>
+                    <input type="radio" name="answer" value="To Add Breakline" id="answer_3">
+                    <label for="answer_3">To Add Breakline</label>
+                </div>
+                <div>
+                    <input type="radio" name="answer" id="answer_4">
+                    <label for="answer_4">To Create Horizontal Line</label>
+                </div>
+            </div>
+        </div>
+        <button>Submit Answer</button>
+        <div class="progress">
+            <div class="bullets"></div>
+            <div class="time-left">00:<span class="seconds">30</span></div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
