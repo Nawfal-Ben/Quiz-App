@@ -48,14 +48,6 @@
         "right_answer": "All Tags Is Exists in HTML"
     },
     {
-        "title": "What Is The Tag That Not Exists in HTML",
-        "answer_1": "<object>",
-        "answer_2": "<basefont>",
-        "answer_3": "<abbr>",
-        "answer_4": "All Tags Is Exists in HTML",
-        "right_answer": "All Tags Is Exists in HTML"
-    },
-    {
         "title": "How We Specify Document Type Of HTML5 Page",
         "answer_1": "<DOCTYPE html>",
         "answer_2": "<DOCTYPE html5>",
